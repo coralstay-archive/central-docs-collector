@@ -353,7 +353,7 @@ EXCLUDED_DIR_NAMES: set[str] = {
 
 # 외부 서적 샘플 코드·외부 오픈소스 클론(fzf)·벤더 레퍼런스 등 엔지니어링 의사결정과 무관한 폴더명
 EXTERNAL_NOISE_DIRS: set[str] = {
-    "references", "practice", "tlpi-dist", "official_sources", "contents", "fzf",
+    "references", "practice", "tlpi-dist", "official_sources", "contents", "fzf", "opensource",
 }
 
 # 1-5. 보안 차단 규칙 (절대 수집하지 않는 실제 환경변수·토큰·인증서·DB 캐시)
