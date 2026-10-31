@@ -14,3 +14,7 @@ python3 ./central-docs-collector.py --test
 # 키워드 검색 (수집된 문서 + 프롬프트 본문 통합 검색)
 python3 ./central-docs-collector.py -f "eBPF"
 ```
+
+## 라이선스
+
+[GNU AGPL-3.0-only](./LICENSE)
